@@ -1,0 +1,9 @@
+#boneco{
+	width:40px;
+	height: 40px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: url("http://vignette3.wikia.nocookie.net/disney-microheroes/images/c/c5/Zurg_RichB.png/revision/latest?cb=20130626070330") no-repeat center center;
+	background-size:contain;
+}
