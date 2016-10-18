@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<link href="passaros.css" rel="stylesheet" type="text/css"/>		
+		<script type="text/javascript">
+		/*script de Funcao para contador*/
+		var count = new Number();
+		var count = 61;
+		var sound=new Audio();
+		sound.src="sound.mp3";
+		function start(){
+		if((count - 1) >= 0){
+		count=count-1;
+		tempo.innerText=count;
+		setTimeout('start();',1000);
+		}
+		/*deixar este comentario p/ n fechar automaticamente 
+		else(self.close())*/
+		}
+		sound.play();
+		</script>
+	</head>
+	<body onload="start();">
+	<div id="tempo"></div>
+	</div>
+	<p id="textelement">Pontuacao: 0</p>
+		<script src="passaros.js" type="text/javascript"></script>
+	</body>
+</html>
